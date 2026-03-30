@@ -37,6 +37,22 @@ while (number <= 0 || number >= 3) {
     number = prompt("Saisissez un nombre entre 1 et 3");
 };
 
+// Exercice 5.2: Un nombris compris entre 10 et 20
+let message1 = prompt("Saisissez un nombre compris entre 10 et 20");
+
+while (message1 < 10 || message1 > 20) {
+  if (message1 <= 10) {
+    alert("Plus grand !");
+  }
+
+  if (message1 >= 20) {
+    alert("Plus petit !");
+  }
+
+  message1 = prompt("Saisissez un nombre compris entre 10 et 20");
+}
+
+
 
 
 
