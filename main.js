@@ -16,9 +16,20 @@ let nombre = 10;
 while (nombre >= 0) {
     console.log(nombre);
     nombre--;
-
 }
 console.log("Décollage !");
+
+// Exercie 4: Boucles combinées
+let amis = ["Alice", "Bob", "Charlie", "Diana"];
+let message = "";
+
+amis.forEach((ami, index) => {
+    message += (ami + " ").repeat(index + 1);
+    message += "\n";
+});
+
+alert(message);
+
 
 
 
