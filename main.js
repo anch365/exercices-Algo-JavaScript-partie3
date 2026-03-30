@@ -73,6 +73,15 @@ for (let index = depart1 + 1; index <= depart1 + 10; index++) {
 
 alert(resultat1);
 
+// Exercice 5.5: Nombre de départ et table de multiplication
+let chiffre = parseInt(prompt("Saisissez un nombre de départ"));
+let tableau = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let message2 = "";
+
+tableau.forEach(nombre => {
+     message2 += chiffre + " x " + nombre + " = " + (chiffre * nombre) + "\n";
+});
+alert("Table de 7 : " + "\n" + message2);
 
 
 
