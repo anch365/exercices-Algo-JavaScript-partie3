@@ -30,6 +30,17 @@ amis.forEach((ami, index) => {
 
 alert(message);
 
+// Exercie 5.1: Ecrire un algo
+let number = -1;
+
+while (number <= 0 || number >= 3) {
+    number = prompt("Saisissez un nombre entre 1 et 3");
+};
+
+
+
+
+
 
 
 
