@@ -10,6 +10,15 @@ heros.forEach(hero => {
     console.log("Je suis fan de " + hero);
 });
 
+// Exercie 3: Boucle while
+let nombre = 10;
+
+while (nombre >= 0) {
+    console.log(nombre);
+    nombre--;
+
+}
+console.log("Décollage !");
 
 
 
