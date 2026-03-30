@@ -52,6 +52,18 @@ while (message1 < 10 || message1 > 20) {
   message1 = prompt("Saisissez un nombre compris entre 10 et 20");
 }
 
+// // Exercie 5.3: Un nombre départ
+let depart = parseInt(prompt("Mettez un nombre de départ"));
+let compteur = 1;
+let resultat = "";
+
+while (compteur <= 10) {
+    resultat += compteur + depart + "\n";
+    compteur++;
+}
+alert(resultat);
+
+
 
 
 
