@@ -63,6 +63,17 @@ while (compteur <= 10) {
 }
 alert(resultat);
 
+// Exercie 5.4: Réécrire l'algorithme précédent
+let depart1 = parseInt(prompt("Mettez un nombre de départ"));
+let resultat1 = "";
+
+for (let index = depart1 + 1; index <= depart1 + 10; index++) {
+  resultat1 += index + "\n";
+}
+
+alert(resultat1);
+
+
 
 
 
